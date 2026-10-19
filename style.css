@@ -4,7 +4,6 @@
     color: aliceblue;
     text-align: center;
     padding: 20px;
-    /* display: flex; */
     border-radius: 20px;
 }
 body{
@@ -27,24 +26,24 @@ body{
 .about {
     margin: 0 auto;
     width: 80%;
-    display: flex;
     padding: 20px;
     border-radius: 20px;
-
+    overflow: hidden;
 }
-
 
 .profile-image {
     width: 200px;
     border-radius: 50%;
     margin-right: 20px;
+    float: left;
 }
 
 .description {
+    display: block;
+    overflow: hidden;
     text-align: left;
     font-size: 20px;
     color: #3D442E;
-
 }
 
 .icon {
@@ -83,15 +82,15 @@ body{
 
 .skills {
     width: 80%;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
     margin: 0 auto;
     text-align: center;
+    overflow: hidden;
 }
 
 .skill {
+    display: inline-block;
     padding: 10px;
+    margin: 0 5px 10px;
     background-color: #f4f9e9;
     border-radius: 20px;
     border-top: #8f4800 solid 5px;
