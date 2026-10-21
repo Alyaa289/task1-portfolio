@@ -28,7 +28,6 @@ body{
     width: 80%;
     padding: 20px;
     border-radius: 20px;
-    overflow: hidden;
 }
 
 .profile-image {
@@ -40,7 +39,6 @@ body{
 
 .description {
     display: block;
-    overflow: hidden;
     text-align: left;
     font-size: 20px;
     color: #3D442E;
@@ -84,7 +82,6 @@ body{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    overflow: hidden;
 }
 
 .skill {
