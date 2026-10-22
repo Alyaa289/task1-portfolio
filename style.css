@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+.float-left{
+    float: left;
+}
+.clear-fix{
+    clear: both;
+}
 .container {
     margin: 0 auto;
     background-color: #3D442E;
@@ -30,11 +39,18 @@ body{
     border-radius: 20px;
 }
 
+
+.img{
+    width: 25%;
+}
+.info{
+    width: 75%;
+}
 .profile-image {
     width: 200px;
     border-radius: 50%;
     margin-right: 20px;
-    float: left;
+
 }
 
 .description {
@@ -85,12 +101,14 @@ body{
 }
 
 .skill {
-    display: inline-block;
+
     padding: 10px;
-    margin: 0 5px 10px;
     background-color: #f4f9e9;
     border-radius: 20px;
     border-top: #8f4800 solid 5px;
+    width: 24%;
+    height: 130px;
+    margin-right: 5px;
 }
 
 #experience {
